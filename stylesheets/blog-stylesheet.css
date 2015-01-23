@@ -1,0 +1,53 @@
+html {
+  background-color: white;
+}
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+.titlearea div {
+  position: relative;
+}
+.navigation a{
+  height: 100px;
+  width: 75px;
+  top: -75px;
+}
+.position {
+  display: inline-block;
+  text-align: center;
+  width: 17%;
+  position: relative;
+  margin-right: 20px;
+  font-family: Cursive;
+}
+.navigation a:link {
+  color: white;
+  background-color: blue;
+}
+.navigation a:hover {
+  color: orange;
+  background-color: navy;
+}
+.navigation a:visited {
+  color: red;
+}
+.navigation a:active {
+  color: white;
+  background: red;
+}
+.title {
+  display: inline-block;
+}
+img {
+  height: 110px;
+}
+.picture {
+  display: inline-block;
+  left: 50%;
+}
+.navword {
+  top: 30px;
+  position: relative;
+}
