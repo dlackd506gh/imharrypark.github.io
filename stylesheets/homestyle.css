@@ -1,0 +1,23 @@
+
+.archive {
+  border: 2px solid black;
+  height: 900px;
+  width: 22%;
+  float: left;
+  display: inline-block;
+  padding-top: 50px;
+}
+.blogentry {
+  border: 2px solid black;
+  height: 900px;
+  width: 75%;
+  float: right;
+  display: inline-block;
+  padding-top: 50px;
+}
+.blogentry > h1{
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+  text-shadow: 5px 2px aqua;
+}

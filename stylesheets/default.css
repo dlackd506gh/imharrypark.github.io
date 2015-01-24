@@ -37,7 +37,7 @@ b:hover {
   border: solid 2px black;
   border-radius: 40px;
   height: 34px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .nav1, .nav2, .nav3, .nav4{
   font-size: 20px;
@@ -81,6 +81,7 @@ a:active {
 }
 
 #bodyboundaries {
+  border: 1px black solid;
   text-align: center;
   font-family: Georgia;
   font-size: 16px;
@@ -96,6 +97,27 @@ section {
   position: relative;
   top: 20px;
 }
-img {
-  height: 150px;
+.homeimg {
+  height: 400px;
+  width: 400px;
+  float: left;
+  display: inline-block;
+}
+#topbody {
+  position: relative;
+  border: 1px solid black;
+}
+#bottombody img {
+  overflow: hidden;
+  height: 100px;
+  width: 700px;
+}
+
+.quote {
+  font-size: 60px;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  float: right;
+  border: 1px solid black;
 }
