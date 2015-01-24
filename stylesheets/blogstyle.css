@@ -81,29 +81,34 @@ a:active {
 a:visited {
   color: white;
 }
-#projects {
+#bodyboundaries {
   text-align: center;
+  border: 1px solid black;
 }
-.description {
+.archive {
   border: 2px solid black;
-  height: 300px;
-}
-.pj1, .pj2, .pj3 {
-  border: 3px dashed black;
+  height: 900px;
+  width: 22%;
+  float: left;
   display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  height: 200px;
-  width: 200px;
-  border-radius: 100%;
+  padding-top: 50px;
 }
-.pj1 {
-  margin-right: 50px;
+.blogentry {
+  border: 2px solid black;
+  height: 900px;
+  width: 75%;
+  float: right;
+  display: inline-block;
+  padding-top: 50px;
 }
-.pj3 {
-  margin-left: 50px;
+section {
+  padding: 20px 40px 20px 40px;
 }
 #footer {
   height: 80px;
   border: 2px solid black;
+  clear: both;
+  display: block;
+  position: relative;
+  top: 40px;
 }
