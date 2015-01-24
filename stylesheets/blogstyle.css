@@ -21,3 +21,7 @@
   font-style: italic;
   text-shadow: 5px 2px aqua;
 }
+.blogentry a {
+  font-size: 18px;
+  text-align: center;
+}
