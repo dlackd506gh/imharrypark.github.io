@@ -10,7 +10,7 @@
 }
 .blogentry {
   border: 2px solid black;
-  border-right: 6px solid #ff4444;
+  border-right: 6px dashed #ff4444;
   height: 1000px;
   width: 75%;
   float: right;
