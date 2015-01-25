@@ -78,7 +78,7 @@ text-decoration: none;
 }
 a:hover {
   background-color: #ff7878;
-  color: white;
+  color: white !important;
 }
 a:active {
   background-color: #afeeee;
