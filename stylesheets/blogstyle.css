@@ -1,15 +1,17 @@
 
 .archive {
   border: 2px solid black;
-  height: 800px;
+  border-right: 6px dashed #ff4444;
+  height: 1000px;
   width: 22%;
   float: left;
-  display: inline-block;
+  display: inl;
   padding-top: 50px;
 }
 .blogentry {
   border: 2px solid black;
-  height: 800px;
+  border-right: 6px solid #ff4444;
+  height: 1000px;
   width: 75%;
   float: right;
   display: inline-block;
@@ -23,5 +25,10 @@
 }
 .blogentry a {
   font-size: 18px;
+  border-radius: 0px;
+  border-bottom: 1px dashed black;
   text-align: center;
+  clear: both;
+  display: block;
+  margin-bottom: 20px;
 }
