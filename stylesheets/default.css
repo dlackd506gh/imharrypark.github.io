@@ -76,13 +76,12 @@ a {
   border-radius: 100px;
 }
 a:link {
-
-color: white;
+color: black;
 text-decoration: none;
 }
 a:hover {
   background-color: #ff7878;
-  color: black;
+  color: white;
 }
 a:active {
   background-color: #afeeee;
