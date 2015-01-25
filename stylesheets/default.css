@@ -142,7 +142,7 @@ max-height: 100%;
 }
 #footer {
   height: 80px;
-  border: 10px dotted green;
+  border: 1px solid black;
   margin: 0px;
   clear: both;
   display: block;
