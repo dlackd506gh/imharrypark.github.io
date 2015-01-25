@@ -1,7 +1,7 @@
 
 .archive {
   border: 2px solid black;
-  height: 900px;
+  height: 800px;
   width: 22%;
   float: left;
   display: inline-block;
@@ -9,7 +9,7 @@
 }
 .blogentry {
   border: 2px solid black;
-  height: 900px;
+  height: 800px;
   width: 75%;
   float: right;
   display: inline-block;
