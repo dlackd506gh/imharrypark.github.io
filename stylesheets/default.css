@@ -145,7 +145,7 @@ max-height: 100%;
 #footer {
   height: 80px;
   border: 2px solid black;
-  border-right: 6px dashed #ff4444;
+  border-right: 6px solid #ff4444;
   margin: 0px;
   clear: both;
   display: block;
