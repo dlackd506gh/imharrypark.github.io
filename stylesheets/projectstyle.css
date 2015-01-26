@@ -4,10 +4,11 @@
 }
 .description {
   border: 2px solid black;
+  border-right: 6px solid #ff4444;
   height: 300px;
 }
 .pj1, .pj2, .pj3 {
-  border: 3px dashed black;
+  border: 3px dashed #ff4444;
   display: inline-block;
   margin-top: 40px;
   margin-bottom: 20px;
