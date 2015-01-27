@@ -21,7 +21,7 @@
   text-decoration: underline;
   text-transform: uppercase;
   font-style: italic;
-  text-shadow: 5px 2px aqua;
+  text-shadow: 5px 2px #d4ff00;
 }
 .blogentry a {
   font-size: 18px;

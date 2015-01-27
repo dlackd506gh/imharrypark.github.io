@@ -81,7 +81,7 @@ a:hover {
   color: white !important;
 }
 a:active {
-  background-color: #afeeee;
+  background-color: #d4ff00;
   color: white;
 }
 a:visited {
@@ -116,7 +116,7 @@ max-height: 100%;
   text-shadow: 5px 5px #d4ff00;
   margin-top: 0px;
   display: inline;
-
+  line-height: 165%;
  }
 #bottombody {
   overflow: hidden;
