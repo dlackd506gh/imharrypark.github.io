@@ -8,16 +8,17 @@
   height: 300px;
 }
 .pj1, .pj2, .pj3 {
-  border: 3px dashed #ff4444;
+  border: 8px dashed black;
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 90px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  line-height: 300px;
+  width: 300px;
   border-radius: 100%;
 }
 .pj1 {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .pj3 {
-  margin-left: 50px;
+  margin-left: 20px;
