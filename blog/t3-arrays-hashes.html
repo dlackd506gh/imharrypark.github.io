@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blogstyle.css"/>
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <div id="boundaries">
+      <div id="header">
+        <header>H a r r y &nbsp;<b class="middlename">J.</b>&nbsp; P a r k</header>
+      </div>
+      <div id="navigation">
+        <a class="nav1" href="../index.html">Home</a>
+        <a class="nav2" href="../blog/blog-index.html">Blog</a>
+        <a class="nav3" href="../blog/project-index.html">Projects</a>
+        <a class="nav4" href="#">About Me</a>
+      </div>
+
+      <div id="bodyboundaries">
+        <div class="archive">Archive</div>
+        <div class="blogentry">
+          <h1>Technical Blog #3</h1>
+          <h2>Arrays and Hashes</h2>
+          <h4>1/31/2015</h4>
+
+        <section>
+          <p>
+              First things first: let's learn about the arrays! Arrays are simply an ordered list of elements. An array can consist of a mix of objects such as a string, an integer, or a float. They are integer-indexed, meaning that the first element within the array has an index of 0, the second one is 1, and so on. If one wants to fetch from the last of the list, a negative integer index can be used. For example, the last element has an index of -1, the second to last has an index of -2, and so on. Arrays are created by using a literal constructor "[ ]". You can also call a method ```Array.new``` to create an array. To insert elements, you can simply write ```array_name = (1, "hat", 31.5)```. Another way to create an array is to write ```Array.new()```, in which the argument accepts the number of slots you want the array to hold.
+          </p>
+          <p>
+              Hashes are similar to arrays, in that they hold items within itself which is why hashes have are sometimes called "associative arrays". The main difference is that hashes act like a dictionary and are identified by "{ }". What I mean is, hashes run on a 'key-and-value' system in which each key is assigned a value. For example, here's how a hash looks like: ```{"age" => 19, "gpa" => 3.4, 23 = "jordan"}```. Unlike arrays, which use indexes to locate an object, hashes use objects to find their assigned value as shown here: ```hash_name["gpa"]       => 3.4```. When the keys are always symbols, you can express them as such: ```{age: 19, gpa: 3.4}```. Notice how I excluded the key '23' in this symbol example? It is because a symbol cannot be an integer.
+          </p>
+          <p>
+              Advantages of using an array over a hash is that you can sort the elements the way you want: lexicographically, by size, or by length, etc. This comes in handy when doing things like finding the max (or min), average, total sum, etc. On the other hand, hashes are very useful when it comes to value insertions. It is good for assigning each key a specific value so you can use or retrieve them to your advantage in the future.
+            </p>
+
+        </section>
+        </div>
+      </div>
+
+      <div id="footer">
+        <p>Copyright © 2015 Harry J. Park</p>
+        <p>Questions? Ask me <a href="mailto:imharrypark@gmail.com">Here</a></p>
+      </div>
+    </div>
+  </body>
+</html>
