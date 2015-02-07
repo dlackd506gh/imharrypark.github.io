@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blogstyle.css"/>
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <div id="boundaries">
+      <div id="header">
+        <header>H a r r y &nbsp;<b class="middlename">J.</b>&nbsp; P a r k</header>
+      </div>
+      <div id="navigation">
+        <a class="nav1" href="../index.html">Home</a>
+        <a class="nav2" href="../blog/blog-index.html">Blog</a>
+        <a class="nav3" href="../blog/project-index.html">Projects</a>
+        <a class="nav4" href="#">About Me</a>
+      </div>
+
+      <div id="bodyboundaries">
+        <div class="archive">Archive</div>
+        <div class="blogentry">
+          <h1>Technical Blog #4</h1>
+          <h2>Wall-E (The 'E' stands for 'Enumerable')</h2>
+          <h4>2/7/2015</h4>
+
+        <section>
+          <p>
+            Have you seen the Disney movie, 'Wall-E'? It tells a story about an adorable robot that spends all of its time going through 'each and every' piece of waste because it is commanded to do so. Wall-E, the robot, is also incredibly skilled at 'sorting' the pile of garbage. One day Wall-E finally finds a form of life on deserted Earth and... blah blah. Not important. Do you see where I'm getting at? Enumerables are like our Wall-E! We can use the enumerables to iterate over, or go through each and every element of, a given collection class (i.e. an array or a hash) and tell it to run a block of code while they are at it. Enumerables can also sort them by size, alphabetically, lexicographically, randomly, etc. There are just so many different types of useful enumerables out there. In this blog, I will specifically cover <em>Enumerable#cycle</em>.
+          </p>
+          <p>
+            What does a cycle do? What does the word 'cycle' mean? Yup, it cycles. It repeates over and over an operation or a block of code, much like so:
+            <p><img src = "../imgs/enumerable_cycle.png" height = 300px></p>
+            <em>Enumerable#cycle</em> sets each element as an object, then passes and calls a block to each element -- repeatedly. It looks something like: <em>.cycle {|x| puts x}</em>. The cycle will iterate through each element forever until it is interrupted with a <em>break</em> statement. Here is an example of an array being called by <em>.cycle</em>:
+            <p><img src = "../imgs/array_cycle.png" height = 400px></p>
+            Notice how the cycle keeps going until we call the <em>break</em> to it?
+          </p>
+          <p>
+            Just like the arrays, we can call <em>.cycle</em> on hashes. Each key and value of the hash will be passed to the block. This also will repeat over and over without stoppage until the <em>break</em> statement. A picture is worth more than a thousand words.
+            <p><img src ="../imgs/hash_cycle.png" height = 500px></p>
+            Not difficult at all, huh? Always keep this enumerable in mind for situations where you might need to repeate a block run over and over and over and over and over and over and over again.
+          </p>
+
+        </section>
+        </div>
+      </div>
+
+      <div id="footer">
+        <p>Copyright © 2015 Harry J. Park</p>
+        <p>Questions? Ask me <a href="mailto:imharrypark@gmail.com">Here</a></p>
+      </div>
+    </div>
+  </body>
+</html>
