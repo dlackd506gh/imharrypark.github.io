@@ -12,18 +12,17 @@ body {
   height: 1050px;
 }
 #header {
-  width: 40%;
+  font-family: cambria;
+  width: 50%;
   margin: 0 auto;
-  text-align: center
-}
-header {
-  font-size: 40px;
+  text-align: center;
+  font-size: 50px;
   text-shadow: 5px 2px #e3e3e3;
   font-weight: bold;
   margin-bottom: 20px;
   border: 3px double black;
   border-radius: 100px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 0px 20px 50px -15px;
 }
 .middlename {
@@ -88,15 +87,18 @@ a:visited {
   color: black;
 }
 #bodyboundaries {
+  margin-top: 100px;
   text-align: center;
+  height: 70%;
   font-family: Georgia;
-  font-size: 16px;
+  line-height: 160%;
+  font-size: 24px;
   display: block;
   position: relative;
   padding-bottom: 50px;
 }
 section {
-  padding: 20px 40px 20px 40px;
+  padding: 0px 40px 20px 40px;
 }
 #topbody {
   height: 700px;
@@ -134,7 +136,7 @@ max-height: 100%;
   height: 180%;
   box-shadow: 0px 20px 50px -15px;
 }
-#bible {
+/*#bible {
   border: 8px solid #ff7878;
   height: 150px;
   width: 70%;
@@ -163,7 +165,7 @@ max-height: 100%;
   float: right;
   margin-top: 10px;
   margin-bottom: 40px;
-}
+}*/
 #footer {
   height: 50px;
   width: 30%;
