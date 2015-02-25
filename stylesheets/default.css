@@ -136,6 +136,12 @@ max-height: 100%;
   height: 180%;
   box-shadow: 0px 20px 50px -15px;
 }
+.soundcloud {
+  margin: 0 auto;
+  display: block;
+  top: -100px;
+  position: relative;
+}
 /*#bible {
   border: 8px solid #ff7878;
   height: 150px;
