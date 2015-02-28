@@ -8,18 +8,38 @@
   display: inline-block;
   padding-top: 50px;
 }*/
-
-h1{
+#bodyboundaries {
+  margin-top: 100px;
+  text-align: center;
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  font-family: Georgia;
+  line-height: 160%;
+  font-size: 22px;
+  display: block;
+  position: relative;
+  padding-bottom: 50px;
+}
+table {
+  margin: auto;
+  font-size: 18px;
+}
+table td {
+  border: 1px black solid;
+  padding: 0px 10px 0px 10px;
+}
+h1 {
   text-decoration: underline;
   text-transform: uppercase;
   font-style: italic;
   line-height: 70%;
   text-shadow: 5px 2px #d4ff00;
 }
-li{
+li {
   text-align: left;
 }
-/*.blogentry < a {
+/*.blogentry > a {
   border-radius: 0px;
   border-bottom: 1px dashed black;
   text-align: center;
