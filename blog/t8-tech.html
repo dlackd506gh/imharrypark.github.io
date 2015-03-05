@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blogstyle.css"/>
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <div id="boundaries">
+      <div id="header">
+        <header>H a r r y &nbsp;<b class="middlename">J.</b>&nbsp; P a r k</header>
+      </div>
+      <div id="navigation">
+        <a class="nav1" href="../index.html">Home</a>
+        <a class="nav2" href="../blog/blog-index.html">Blog</a>
+        <a class="nav3" href="../blog/project-index.html">Projects</a>
+        <a class="nav4" href="#">About Me</a>
+      </div>
+
+      <div id="bodyboundaries">
+      <!--   <div class="archive">Archive</div> -->
+        <div class="blogentry">
+          <h1>Ruby vs. JavaScript</h1>
+          <h2>Hashes? Objects?</h2>
+          <h4>2/27/2015</h4>
+
+        <section>
+          <p>
+            Until now, we have been discussing Ruby only. But today, I want us to talk about a new programming language called JavaScript. JavaScript is a great language for the web browser, with which we can take control of what we want the brower to do. For the sake of our discussion, we will tune our focus on Ruby hashes and JavaScript objects. Hopefully by the end of reading this entry, you will get an idea of some of the similarities and differences of the two. Let's start off by looking at the how the Ruby hashes and JavaScript objects look like.
+          </p>
+          <p>
+            Hashes in ruby are given a variable name and key-and-value pair(s) inside the curly brackets. First, let's create an empty hash. <em>Either</em> of these will do the job:<br></br>
+            <img src = "../imgs/ruby_hash.png" width = "30%"><br></br>
+            To insert a key-and-value pair, you can choose from the following two choices:<br></br>
+            <img src = "../imgs/ruby_hash2.png" width = "40%"><br></br>
+            The name on the left side of the ('=') sign is the variable name. Inside the curly brackets, each element has two parts. The first thing is the <strong>key</strong>, and the key has its corresponding <strong>value</strong>. Key and value are assigned by using the arrow ('=>') sign. You can also add a key-and-value pair by using square brackets, as shown in the previous diagram -- it will result in the same hash value as the first example. In order to access a value from a hash, you can use its corresponding key like so:<br></br>
+            <img src = "../imgs/ruby_hash3.png" width = "35%">
+          </p>
+          <p>
+            An object in JavaScript is -- or at least <em>looks</em> similar to -- a hash in Ruby. Let me show you how to create an object in JavaScript. Be prepared for some déjà vu.<br></br>
+            <img src = "../imgs/js_object.png" width = "30%"><br></br>
+            What we did was create an object with an arbitrary variable name and a set of curly brackets. Now on to adding elements, or <strong>properties</strong>. Just like a hash in Ruby, you can add as many properties into a JavaScript object. You simply write each property and its corresponding value using ':'. Let me add multiple properties for practice.<br></br>
+            <img src = "../imgs/js_object2.png" width = "55%"><br></br>
+            In order to access a value of a JavaScript object, you can call a method with the property name using a dot. Here's an example:<br></br>
+            <img src = "../imgs/js_object3.png" width = "45%">
+          </p>
+            Now that we've determined what Ruby hash and JavaScript object look like, here is a list of some similarities:
+            <ul>
+              <li>They are enclosed by a set of curly brackets.</li>
+              <li>They are given a variable name.</li>
+              <li>Each element within the brackets has two parts. For Ruby, they are called <em>key</em> and <em>value</em>; for JavaScript, <em>property</em> and <em>value</em>.
+              <li>Values can be accessed using their corresponding <em>key</em> (Ruby) or <em>property</em> (JavaScript).</li>
+            </ul>
+          <p>
+            How about some differences between a Ruby hash and a JavaScript object? Here is a list:
+            <ul>
+              <li>They use different syntaxes for their elements. Hashes use ("=>") while objects use (":")</li>
+              <li>When accessing values in the set, hashes require the key to go inside square brackets ("[]"). On the other hand, values of the JavaScript objects are accessed by calling the propery name as a method onto the object.</li>
+            </ul>
+          </p>
+        </section>
+        </div>
+      </div>
+<!--
+      <div id="footer">
+        <p>Copyright © 2015 Harry J. Park</p>
+        <p>Questions? Ask me <a href="mailto:imharrypark@gmail.com">Here</a></p>
+      </div> -->
+    </div>
+  </body>
+</html>

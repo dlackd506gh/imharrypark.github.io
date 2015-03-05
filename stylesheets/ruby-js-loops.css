@@ -1,0 +1,40 @@
+body {
+  background-color: #E4EBEB;
+  text-align: center;
+  font-family: georgia;
+}
+
+#comparison {
+  display: inline-block;
+}
+
+#comparison div {
+  background-color: #A4AAAA;
+  font-size: 1.5em;
+}
+
+#comparison h2 {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0px 220px 20px 220px;
+}
+
+#ruby {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40%;
+  height: 250px;
+  float: left;
+  box-shadow: 0 8px 8px;
+  margin: 0px 20px 0px 80px;
+}
+
+#javascript {
+  border: 1px solid black;
+  display: inline-block;
+  width: 40%;
+  height: 250px;
+  float: right;
+  box-shadow: 0 8px 8px;
+  margin: 0px 55px 0px 80px;
+}
